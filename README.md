@@ -1,4 +1,4 @@
-# Ethereum Blckchain Developer Bootcamp With Solidity (2021)
+# Ethereum Blockchain Developer Bootcamp With Solidity (2021)
 
 This is a repository for the Udemy course "Ethereum Blockchain Developer Bootcamp With Solidity (2021)"
 
