@@ -19,7 +19,7 @@ contract SendMoneyExample {
         to.transfer(getBalance());
     }
     
-    function withdrawMoneyTo(address payable _to) public {
+    function withdrawMoneyTo(address payable _to) public { // When you give an argument to the function, in Remix it will create an input field next to the function button so that you can insert the parameter
         _to.transfer(getBalance());
     }
 }
