@@ -22,7 +22,7 @@ contract MappingsStructExample {
         balanceReceived[msg.sender].totalBalance += msg.value;
         
         Payment memory payment = Payment(msg.value, now);
-        balanceReceived{msg.sender].payments[balanceReceived[msg.sender].numPayments] = payment;
+        balanceReceived[msg.sender].payments[balanceReceived[msg.sender].numPayments] = payment;
         balanceReceived[msg.sender].numPayments++;
     }
     
